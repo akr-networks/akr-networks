@@ -27,8 +27,7 @@ export default function AKRNetworksHomepage() {
             <img
               src="/logo.png"
               alt="AKR Networks Logo"
-              className="h-28 w-auto object-contain group-hover:scale-105 transition duration-300"
-            />
+className="h-20 w-20 object-cover drop-shadow-[0_8px_20px_rgba(16,185,129,0.25)] group-hover:scale-105 transition duration-300"            />
 
             <div>
               <h1 className="text-2xl font-black tracking-tight text-[#163328] group-hover:text-emerald-600 transition">
