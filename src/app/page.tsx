@@ -1,8 +1,3 @@
-# Wartungsseite für `src/app/page.tsx`
-
-Ersetze den aktuellen Inhalt deiner `src/app/page.tsx` temporär mit diesem Code 😄🔥
-
-```tsx
 export default function MaintenancePage() {
   return (
     <main className="relative min-h-screen overflow-hidden bg-[#07110d] text-white flex items-center justify-center px-6">
@@ -74,20 +69,3 @@ export default function MaintenancePage() {
     </main>
   )
 }
-```
-
----
-
-# Danach 😄🔥
-
-```bash
-git add .
-git commit -m "enable maintenance mode"
-git push origin main
-```
-
----
-
-# Wenn die echte Website wieder online soll 😄🔥
-
-Einfach dein Backup der alten `page.tsx` wieder einfügen 😄🔥
