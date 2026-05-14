@@ -28,7 +28,7 @@ export default function AKRNetworksHomepage() {
             <img
               src="/logo.png"
               alt="AKR Networks Logo"
-              className="h-20 w-20 object-cover drop-shadow-[0_10px_25px_rgba(16,185,129,0.25)] group-hover:scale-105 transition duration-300"
+              className="h-20 w-20 object-cover dirop-shadow-[0_10px_25px_rgba(16,185,129,0.25)] group-hover:scale-105 transition duration-300"
             />
 
             <div>
