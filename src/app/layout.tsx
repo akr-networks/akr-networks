@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: '/dashboard.png',
+      url: 'https://akr-networks.de/dashboard.png',z
         width: 1200,
         height: 630,
         alt: 'AKR Networks – Smart Home & Netzwerk Lösungen',
