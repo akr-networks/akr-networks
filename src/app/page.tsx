@@ -47,21 +47,11 @@ export default function MaintenancePage() {
 
         </div>
 
-        <div className="flex flex-col md:flex-row gap-4 justify-center">
+        <div className="flex justify-center">
 
-          <a
-            href="mailto:akr-networks@outlook.de"
-            className="px-8 py-4 rounded-2xl bg-gradient-to-r from-emerald-500 to-cyan-400 text-black font-bold shadow-[0_10px_40px_rgba(16,185,129,0.35)] hover:scale-105 transition duration-300"
-          >
-            Kontakt aufnehmen
-          </a>
-
-          <a
-            href="https://wa.me/49123456789"
-            className="px-8 py-4 rounded-2xl border border-white/15 bg-white/5 backdrop-blur-xl hover:border-emerald-400 transition duration-300"
-          >
-            WhatsApp
-          </a>
+          <div className="px-8 py-4 rounded-2xl border border-white/15 bg-white/5 backdrop-blur-xl text-white/80">
+            Weitere Funktionen & Inhalte folgen bald 😄🔥
+          </div>
 
         </div>
 
