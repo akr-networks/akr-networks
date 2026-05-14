@@ -37,7 +37,7 @@ export default function AKRNetworksHomepage() {
               </h1>
 
               <p className="text-sm text-gray-600 font-medium tracking-wide">
-                Netzwerk • Smart Home • Infrastruktur
+                Netzwerk •  Smart Home • Infrastruktur
               </p>
             </div>
 
