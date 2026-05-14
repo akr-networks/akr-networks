@@ -65,6 +65,39 @@ export default function RootLayout({
 }) {
   return (
     <html lang="de">
+      <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'LocalBusiness',
+      name: 'AKR Networks',
+      url: 'https://akr-networks.de',
+      logo: 'https://akr-networks.de/logo.png',
+      image: 'https://akr-networks.de/dashboard.png',
+      description:
+        'Smart Home, Home Assistant, WLAN Optimierung, Netzwerkverkabelung und moderne Infrastruktur-Lösungen.',
+   areaServed: [
+  'Minden',
+  'Bielefeld',
+  'Herford',
+  'Bad Oeynhausen',
+  'Porta Westfalica',
+  'Lübbecke',
+  'Hannover',
+  'Osnabrück',
+  'Detmold',
+  'NRW',
+],
+      address: {
+        '@type': 'PostalAddress',
+        addressRegion: 'NRW',
+        addressCountry: 'DE',
+      },
+      sameAs: [],
+    }),
+  }}
+/>
       <body>{children}</body>
     </html>
   )
