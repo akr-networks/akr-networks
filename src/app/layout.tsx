@@ -19,51 +19,70 @@ export const metadata: Metadata = {
   ],
 
   authors: [{ name: 'AKR Networks' }],
+
   creator: 'AKR Networks',
 
-  // Canonical URL
   alternates: {
     canonical: 'https://akr-networks.de',
   },
 
   icons: {
     icon: '/logo.png',
+    apple: '/apple-touch-icon.png',
   },
 
   openGraph: {
-    title: 'AKR Networks',
-    description: 'Moderne Smart-Home-, Netzwerk- und Infrastruktur-Lösungen.',
+    title: 'AKR Networks | Smart Home & Netzwerk Lösungen',
+
+    description:
+      'Moderne Smart-Home-, Netzwerk- und Infrastruktur-Lösungen.',
+
     url: 'https://akr-networks.de',
+
     siteName: 'AKR Networks',
+
     locale: 'de_DE',
+
     type: 'website',
+
     images: [
       {
-      url: 'https://akr-networks.de/dashboard.png',z
+        url: 'https://akr-networks.de/logo.png',
         width: 1200,
         height: 630,
-        alt: 'AKR Networks – Smart Home & Netzwerk Lösungen',
+        alt: 'AKR Networks Logo',
       },
     ],
   },
 
   twitter: {
     card: 'summary_large_image',
+
     title: 'AKR Networks',
-    description: 'Smart Home, WLAN, Netzwerk & moderne Infrastruktur.',
-    images: ['/dashboard.png'],
+
+    description:
+      'Smart Home, WLAN, Netzwerk & moderne Infrastruktur.',
+
+    images: ['https://akr-networks.de/logo.png'],
   },
 }
 
 const schemaOrg = {
   '@context': 'https://schema.org',
+
   '@type': 'LocalBusiness',
+
   name: 'AKR Networks',
+
   url: 'https://akr-networks.de',
+
   logo: 'https://akr-networks.de/logo.png',
-  image: 'https://akr-networks.de/dashboard.png',
+
+  image: 'https://akr-networks.de/logo.png',
+
   description:
     'Smart Home, Home Assistant, WLAN Optimierung, Netzwerkverkabelung und moderne Infrastruktur-Lösungen.',
+
   areaServed: [
     'Minden',
     'Bielefeld',
@@ -76,11 +95,13 @@ const schemaOrg = {
     'Detmold',
     'NRW',
   ],
+
   address: {
     '@type': 'PostalAddress',
     addressRegion: 'NRW',
     addressCountry: 'DE',
   },
+
   sameAs: [],
 }
 
@@ -94,9 +115,12 @@ export default function RootLayout({
       <head>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaOrg) }}
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(schemaOrg),
+          }}
         />
       </head>
+
       <body>{children}</body>
     </html>
   )
