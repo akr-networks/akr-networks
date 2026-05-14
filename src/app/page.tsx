@@ -33,7 +33,7 @@ export default function AKRNetworksHomepage() {
 
             <div>
               <h1 className="text-2xl font-black tracking-tight text-[#163328]">
-                AKR Networks
+                AKR Networks – Smart Home & Netzwerk Lösungen
               </h1>
 
               <p className="text-sm text-gray-600 font-medium tracking-wide">
